@@ -75,12 +75,15 @@ const Navbar = () => {
               >
                 About Us
               </Link>
+              <Link
+                to="/contact"
+                className="text-gray-600 hover:text-emerald-600  decoration-2 decoration-emerald-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-150 hover:bg-emerald-50/60 cursor-pointer"
               <a
                 href="#"
                 className="text-gray-600 hover:text-emerald-600 decoration-2 decoration-emerald-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-150 hover:bg-emerald-50/60 cursor-pointer"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
 
