@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import CategorySection from "./components/CategorySection";
 import FeaturedMedicines from "./components/FeaturedMedicines";
 import Footer from "./components/Footer";
+import FloatingHomeButton from "./components/FloatingHomeButton";
 import ShopByCategory from "./pages/ShopByCategory";
 import MedicineDetails from "./pages/MedicineDetails";
 
@@ -12,6 +13,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import "./App.css";
 
+{/*Temporary comment*/}
 function App() {
   return (
     <div className="h-full w-full bg-white">
@@ -33,6 +35,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <FloatingHomeButton />
     </div>
   );
 }
